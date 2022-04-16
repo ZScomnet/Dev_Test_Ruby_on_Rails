@@ -45,15 +45,15 @@
   - https://github.com/ctran/annotate_models/issues/170
 
 - Model 의존성 개념
- - https://velog.io/@sunaaank/Ruby-On-Rails-dependency
- - https://rubykr.github.io/rails_guides/association_basics.html
+  - https://velog.io/@sunaaank/Ruby-On-Rails-dependency
+  - https://rubykr.github.io/rails_guides/association_basics.html
 
 - Carrierwave 오류
- - https://stackoverflow.com/questions/36599457/uninitialized-constant-userphotouploader
+  - https://stackoverflow.com/questions/36599457/uninitialized-constant-userphotouploader
 
 - model find_by VS find VS all
- - https://stackoverflow.com/questions/9650205/rails-find-all-with-conditions
- - https://stackoverflow.com/questions/53845593/actioncontrollerparametermissing-param-is-missing-or-the-value-is-empty-us
+  - https://stackoverflow.com/questions/9650205/rails-find-all-with-conditions
+  - https://stackoverflow.com/questions/53845593/actioncontrollerparametermissing-param-is-missing-or-the-value-is-empty-us
 
 - scaffold 사용법
- - https://morningbird.tistory.com/36
+  - https://morningbird.tistory.com/36
