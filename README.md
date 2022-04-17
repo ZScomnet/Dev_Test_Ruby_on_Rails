@@ -38,9 +38,6 @@
 
 ### 4. References
 
-- docker 설치
-  - https://shanepark.tistory.com/237
-
 - Jwt 사용법
   - https://dev.to/alexmercedcoder/ruby-on-rails-api-with-jwt-auth-tutorial-go2
 
