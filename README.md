@@ -5,8 +5,14 @@
 - Rails 7.0.2.3
 - Ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [x86_64-linux]
 - PostgreSQL 12.9 (Ubuntu 12.9-0ubuntu0.20.04.1)
+- Docker version 20.10.14, build a224086
 
-### 2. Postman Test Routes
+
+### 2. Add Gem
+- gem 'bcrypt', 'rack-cors', 'jwt - Auth gem
+- gem 'carrierwave' - thumbnail upload gem
+
+### 3. Postman Test Routes
 
 #### User
 
@@ -30,30 +36,34 @@
 - Update-Content : http://127.0.0.1:3000/api/v1/contents/:id (PUT) - 컨텐츠 수정
 - Delete-Content : http://127.0.0.1:3000/api/v1/contents/:id (DELETE) - 컨텐츠 삭제
 
-3. 참고자료
+### 4. References
 
-참고자료
+- docker 설치
+  - https://shanepark.tistory.com/237
 
-- password seed 문제 해결
+- Jwt 사용법
+  - https://dev.to/alexmercedcoder/ruby-on-rails-api-with-jwt-auth-tutorial-go2
+
+- password 문제 해결
   - http://blog.devjoshua.me/2017/02/19/rails-column-rename/
   - https://stackoverflow.com/questions/48138958/rails-nomethoderror-undefined-method-password-digest
 
-- enum 사용법
+- enum 사용법 (해당 프로젝트에서 누락 - 'type'이라는 이름으로 column을 생성시 오류가 심해서 누락)
   - https://velog.io/@boori/Ruby-on-Rails-%EA%B2%8C%EC%8B%9C%ED%8C%90-CRUD
 
-- enum ArgumentError 해결
+- enum ArgumentError 해결 (해당 프로젝트에서 누락 - 'type'이라는 이름으로 column을 생성시 오류가 심해서 누락)
   - https://github.com/ctran/annotate_models/issues/170
 
-- Model 의존성 개념
+- Model 의존성 개념 (상위,하위 모델 사용법)
   - https://velog.io/@sunaaank/Ruby-On-Rails-dependency
   - https://rubykr.github.io/rails_guides/association_basics.html
 
-- Carrierwave 오류
+- Carrierwave 오류 (Project model의 thumbnail 이용시 참조)
   - https://stackoverflow.com/questions/36599457/uninitialized-constant-userphotouploader
 
-- model find_by VS find VS all
+- model find_by VS find VS all ()
   - https://stackoverflow.com/questions/9650205/rails-find-all-with-conditions
   - https://stackoverflow.com/questions/53845593/actioncontrollerparametermissing-param-is-missing-or-the-value-is-empty-us
 
-- scaffold 사용법
+- scaffold 사용법 (Project 기능 구현시 사용)
   - https://morningbird.tistory.com/36
