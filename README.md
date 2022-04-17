@@ -5,8 +5,6 @@
 - Rails 7.0.2.3
 - Ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [x86_64-linux]
 - PostgreSQL 12.9 (Ubuntu 12.9-0ubuntu0.20.04.1)
-- Docker version 20.10.14, build a224086
-
 
 ### 2. Add Gem
 - gem 'bcrypt', 'rack-cors', 'jwt - Auth gem
